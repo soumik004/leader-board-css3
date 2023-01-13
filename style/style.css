@@ -7,14 +7,16 @@ body{
 } 
 main{ 
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  
 }
 .container{
     background: #ffffff;
     width: 870px;
     height: 679px;
     padding: 30px;
-   
+    margin-top: 21px;
 }
 hr{
     border: 1px solid #bdb3b3;
@@ -74,3 +76,49 @@ a{
     color: #2f0ee8;
     text-decoration: none;
 }
+/* ---style for lates course-----  */
+.course-marking{
+    display: flex;
+    align-items: center;
+}
+.course-banner{
+    margin-bottom: 19px;
+}
+.course-banner img{
+    width: 224px;
+    height: 104px;
+
+}
+.course-title{
+    font-size: 20px;
+    margin: 0px;
+}
+p{
+    font-size: 14px;
+    color: #ED6B4F;
+}
+.course-star{
+    margin-right: 10px;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.color{
+    
+    color: #FFC014;
+}
+.fa-star.empty{
+    color:#AEAEAE;
+}
+.course-duration{
+    color:#ED6B4F;
+    width: 94px;
+    height: 29px;
+    background: #FFE4E8;
+    border-radius: 14px;
+
+}
+.fa-clock{
+    margin-left: 15px;
+}
+
